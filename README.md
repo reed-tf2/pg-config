@@ -44,6 +44,7 @@ _Note: There's a TF2 bug with controlling the voice chat through the console. To
 - Autoreload on
 - Hitsounds on
 - Combat text on; batching on
+- Unbind \` key; bind toggleconsole key to F11 (easy to accidentally hit the \` key)
 
 ### Medic
 
