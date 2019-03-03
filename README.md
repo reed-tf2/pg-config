@@ -8,34 +8,19 @@ I made this parental guidance starter config for my nephews who're younger than 
 1. Unzip it
 1. If your folder structure is `pg-config-master/pg-config-master` save the inner folder and delete the outer folder
 1. Move the remaining folder into your `tf/custom` folder
-1. Navigate into the `cfg` folder: `tf/custom/pg-config-master/cfg` to add your configurations
 1. Feel free to rename `pg-config-master`
-
-## Chat Control
-
-### Text Chat
-
-Defaults to `chatOff` and `chatUnbind`
-
-Console commands:
-
-- `chatOff`: Turns text chat view off
-- `chatOn`: Turns text chat view on
-- `chatUnbind`: Unbinds `y` and `u` text chat interactions
-- `chatBind`: Binds `y` and `u` text chat interactions
-
-### Voice Chat
-
-Defaults to `voiceOff`
-
-Console commands:
-
-- `voiceOff`: Turns voice chat off
-- `voiceOn`: Turns voice chat on
-
-_Note: There's a TF2 bug with controlling the voice chat through the console. To turn the voice on, **after** entering `voiceOn` in the console, you'll need to go into Options>Voice and check the box "Enable voice in this game", then press Apply._
+1. Navigate into the `cfg` folder: `tf/custom/pg-config-master/cfg`
+1. Open `custom.cfg` to adjust the settings
 
 ## Game Settings
+
+### PG Settings
+
+- Default `chatOff` -- `chatOn`/`chatOff`
+- Default `voiceOff` -- `voiceOn`/`voiceOff`
+- Default `chatUnbind` -- `chatBind`/`chatUnbind`
+- Default `goreOff` -- `goreOn`/`goreOff`
+- Default `spraysOff` -- `spraysOn`/`spraysOff`
 
 ### General
 
@@ -43,7 +28,7 @@ _Note: There's a TF2 bug with controlling the voice chat through the console. To
 - Min-viewmodels on
 - Autoreload on
 - Hitsounds on
-- Combat text on; batching on
+- Damage numbers on; batching on
 - Unbind \` key; bind toggleconsole key to F11 (easy to accidentally hit the \` key)
 
 ### Medic
@@ -70,3 +55,12 @@ It's bound to right mouse click (MOUSE2). This is fine for the stock rocket laun
 ### Spy
 
 - Concise disguise menu on
+
+## Bugs
+
+### Voice control commands
+
+There's a TF2 bug with controlling the voice chat through the console. To turn the voice on:
+
+1. Enter `voiceOn` in the console
+1. Open **Options>Voice** and check the box "Enable voice in this game", then press Apply. If it's already checked, uncheck it and press Apply, then re-check it and press Apply.
