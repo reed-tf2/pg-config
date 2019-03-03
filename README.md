@@ -18,7 +18,7 @@ I made this parental guidance starter config for my nephews who're younger than 
 
 - Default `chatOff` -- `chatOn`/`chatOff`
 - Default `voiceOff` -- `voiceOn`/`voiceOff`
-- Default `chatUnbind` -- `chatBind`/`chatUnbind`
+- Default `unbindChat` -- `bindChat`/`unbindChat`
 - Default `goreOff` -- `goreOn`/`goreOff`
 - Default `spraysOff` -- `spraysOn`/`spraysOff`
 
