@@ -21,6 +21,7 @@ I made this parental guidance starter config for my nephews who're younger than 
 - Default `unbindChat` -- `bindChat`/`unbindChat`
 - Default `goreOff` -- `goreOn`/`goreOff`
 - Default `spraysOff` -- `spraysOn`/`spraysOff`
+- Remove Conscientious Objector models
 
 ### General
 
@@ -64,3 +65,12 @@ There's a TF2 bug with controlling the voice chat through the console. To turn t
 
 1. Enter `voiceOn` in the console
 1. Open **Options>Voice** and check the box "Enable voice in this game", then press Apply. If it's already checked, uncheck it and press Apply, then re-check it and press Apply.
+
+## Thanks
+
+From the [Reddit post](https://www.reddit.com/r/Tf2Scripts/comments/awj06v/parental_guidance_config/):
+
+- @bythepowerofscience for reminding me about the gore
+- @byParallax for reminding me about the Conscientious Objector
+- @JarateKing for helping me remove the Conscientious Objector models
+- @woofbarkbro for reminding me to turn off sprays
