@@ -2,17 +2,27 @@
 
 I made this parental guidance starter config for my nephews who're younger than 13.
 
+For more information about configs, how to install them, and how they work, I recommend reading this [Reddit TF2 Script Help](https://www.reddit.com/r/tf2scripthelp/wiki/introduction#wiki_using_scripts) post.
+
 ## Install
 
-1. Download this repo
+1. [Download](https://github.com/rufio-tf2/pg-config/archive/master.zip) this config
 1. Unzip it
-1. If your folder structure is `pg-config-master/pg-config-master` save the inner folder and delete the outer folder
-1. Move the remaining folder into your `tf/custom` folder
-1. Feel free to rename `pg-config-master`
-1. Navigate into the `cfg` folder: `tf/custom/pg-config-master/cfg`
-1. Open `custom.cfg` to adjust the settings
+1. Unzipping can create an extra folder on Windows. If your folder structure is `pg-config-master/pg-config-master`, save the inner folder and delete the outer folder.
+1. Open your `tf` folder:
+   1. In the Steam "Library", right-click Team Fortress 2, select Properties:<br/>
+      <img alt="`Properties` option at the bottom of the list" src="./assets/tf2_local_files_1.png" height="40%" width="40%" />
+   1. Click the Local Files tab:<br/>
+      <img alt="`Local Files` tab" src="./assets/tf2_local_files_2.png" height="50%" width="50%" />
+   1. Click Browse Local Files:<br/>
+      <img alt="`Browse Local Files` button" src="./assets/tf2_local_files_3.png" height="50%" width="50%" />
+1. Navigate into the `tf/custom` folder
+1. Move the `pg-config-master` folder into the `tf/custom` folder
+1. Double check the folder structure. Starting at `tf`, these folders need to exist in this order: `tf/custom/pg-config-master/cfg/`
 
 ## Game Settings
+
+These can be adjusted in: `tf/custom/pg-config-master/cfg/custom.cfg`
 
 ### PG Settings
 
@@ -30,16 +40,16 @@ I made this parental guidance starter config for my nephews who're younger than 
 - Autoreload on
 - Hitsounds on
 - Damage numbers on; batching on
-- Unbind \` key; bind toggleconsole key to F11 (easy to accidentally hit the \` key)
+- Unbind <kbd>\`</kbd> key; bind `toggleconsole` to <kbd>F11</kbd> (easy to accidentally hit the backtick key)
 
 ### Medic
 
-- Autoheal off (will teach better I think)
+- Autoheal on
 - Autocallers on; threshold 99
 
 ### Sniper
 
-- Play sound when fully zoomed 1
+- Play sound when fully zoomed
 
 ### Soldier
 
@@ -57,7 +67,7 @@ It's bound to right mouse click (MOUSE2). This is fine for the stock rocket laun
 
 - Concise disguise menu on
 
-## Bugs
+## Known Issues
 
 ### Voice control commands
 
@@ -65,6 +75,14 @@ There's a TF2 bug with controlling the voice chat through the console. To turn t
 
 1. Enter `voiceOn` in the console
 1. Open **Options>Voice** and check the box "Enable voice in this game", then press Apply. If it's already checked, uncheck it and press Apply, then re-check it and press Apply.
+
+## Any problems?
+
+Please [open a new issue](https://github.com/rufio-tf2/pg-config/issues/new/choose) to let me know.
+
+## Contributing
+
+Contributions are welcome and encouraged.
 
 ## Thanks
 
