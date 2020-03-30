@@ -1,10 +1,18 @@
-# PG Starter Config
+# Parental Guidance Config
 
-I made this parental guidance starter config for my nephews who're younger than 13.
+A parental guidance config for Team Fortress 2 (TF2).
+
+This config disables some vulgar language and imagery (from gamers on the internet), and enables a few settings that I recommend to beginners. It doesn't change any default gameplay controls.
+
+I made this for my nephews who're younger than 13. Gamers reliably use language and imagery that aims to irk. They can learn all about that once they're a bit older. [#okboomer](https://i.giphy.com/PnggNmuamz7kbgfUTL.gif)
 
 For more information about configs, how to install them, and how they work, I recommend reading this [Reddit TF2 Script Help](https://www.reddit.com/r/tf2scripthelp/wiki/introduction#wiki_using_scripts) post.
 
 ## Install
+
+Installing this requires you to download this PG Config folder and put it in a specific TF2 folder. Then, when TF2 starts it will load the config.
+
+Follow the folder paths precisely:
 
 1. [Download](https://github.com/rufio-tf2/pg-config/archive/master.zip) this config
 1. Unzip it
@@ -18,20 +26,24 @@ For more information about configs, how to install them, and how they work, I re
       <img alt="`Browse Local Files` button" src="./assets/tf2_local_files_3.png" height="50%" width="50%" />
 1. Navigate into the `tf/custom` folder
 1. Move the `pg-config-master` folder into the `tf/custom` folder
-1. Double check the folder structure. Starting at `tf`, these folders need to exist in this order: `tf/custom/pg-config-master/cfg/`
+1. Double check the folder structure. Starting in the `tf` folder, these folders need to exist in this order: `tf/custom/pg-config-master/cfg/`
 
 ## Game Settings
 
-These can be adjusted in: `tf/custom/pg-config-master/cfg/custom.cfg`
+These can be adjusted in: `tf/custom/pg-config-master/cfg/custom.cfg`.
+
+For more info, see these instructions [How To Adjust Settings](./docs/ADJUST_SETTINGS.md).
 
 ### PG Settings
 
-- Default `chatOff` -- `chatOn`/`chatOff`
-- Default `voiceOff` -- `voiceOn`/`voiceOff`
-- Default `unbindChat` -- `bindChat`/`unbindChat`
-- Default `goreOff` -- `goreOn`/`goreOff`
-- Default `spraysOff` -- `spraysOn`/`spraysOff`
-- Remove Conscientious Objector models
+Default settings are **bold**.
+
+- **`voiceOff`**/`voiceOn`
+- **`chatOff`**/`chatOn`
+- **`unbindChat`**/`bindChat`
+- **`goreOff`**/`goreOn`
+- **`spraysOff`**/`spraysOn`
+- Remove Conscientious Objector models ([How to re-enable](./docs/ENABLE_CONSCIENTIOUS_OBJECTOR.md))
 
 ### General
 
@@ -40,6 +52,7 @@ These can be adjusted in: `tf/custom/pg-config-master/cfg/custom.cfg`
 - Autoreload on
 - Hitsounds on
 - Damage numbers on; batching on
+- Bind crouch to <kbd>SHIFT</kbd> key (easier for smaller hands)
 - Unbind <kbd>\`</kbd> key; bind `toggleconsole` to <kbd>F11</kbd> (easy to accidentally hit the backtick key)
 
 ### Medic
@@ -63,10 +76,6 @@ bind MOUSE2 +rocketJump
 
 It's bound to right mouse click (MOUSE2). This is fine for the stock rocket launcher, but it disables the right-click for the Cow Mangler. You can change the key in that file, but you need to reset that key to its [default behavior](https://wiki.teamfortress.com/wiki/List_of_default_keys) inside `reset.cfg`.
 
-### Spy
-
-- Concise disguise menu on
-
 ## Known Issues
 
 ### Voice control commands
@@ -74,7 +83,7 @@ It's bound to right mouse click (MOUSE2). This is fine for the stock rocket laun
 There's a TF2 bug with controlling the voice chat through the console. To turn the voice on:
 
 1. Enter `voiceOn` in the console
-1. Open **Options>Voice** and check the box "Enable voice in this game", then press Apply. If it's already checked, uncheck it and press Apply, then re-check it and press Apply.
+1. Open **Options > Voice** and check the box "Enable voice in this game", then press Apply. If it's already checked, uncheck it and press Apply, then re-check it and press Apply.
 
 ## Any problems?
 
